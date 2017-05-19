@@ -11,11 +11,11 @@ Features in brief:
 - Interal temperature measure to switch off or raise an alarm if the housing gets too hot.
 - External touch switch: switch manually if you're to lazy to apply your smartphone.
 - Status LED: shows state of switch by LED
-- Emergency mode:  if MQTT and/or WIFI is down, start an own internal scheduler according to 
-  the last switch times and follow them until MQTT/WIFI are present again.
-- Manual timer: if no MQTT Server present, you just have a simple 24h- time relay. (Yes, that can be done cheaper 
+- Emergency mode:  if MQTT and/or WIFI is down, start an own internal 24h scheduler according to 
+  the last remembered switch times and follow them until MQTT/WIFI is  present again.
+- Manual timer: A simple 24h- time relay. (Yes, that can be done cheaper 
  with a simple mechanical clock switch)
 
 This project contains the software only. You're free to implement any hardware you like.
-Find some description and a picture of my hardware implementation in the WIKI. 
+Find some description and a picture of my hardware implementation in the WIKI.
 
